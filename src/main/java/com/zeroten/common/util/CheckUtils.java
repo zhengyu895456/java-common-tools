@@ -10,10 +10,14 @@ public class CheckUtils {
         return true;
     }
     public static boolean isEmpty(Object[] arr){
-        if(arr.equals("") || arr.equals(null)){
-            return true;
-        }else{
-            return false;
+        boolean emp = false;
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i].equals("") || arr[i].equals(null)){
+                emp = true;
+            }else{
+                emp = false;
+            }
         }
+        return emp;
     }
 }
