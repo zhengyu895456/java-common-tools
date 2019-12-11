@@ -9,4 +9,11 @@ public class CheckUtils {
         }
         return true;
     }
+    public static boolean isEmpty(Object[] arr){
+        if(arr.equals("") || arr.equals(null)){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

@@ -5,7 +5,11 @@ import org.testng.annotations.Test;
 public class TestIsAnyEmpty {
     @Test
     public static void IsAnyEmptyTest(){
-        String[] strings = new String[]{"s","dd"};
-        Assert.assertTrue(CheckUtils.isAnyEmpty(strings));
+        String[] strings1 = new String[]{"s","dd"};
+        String[] strings2 = new String[]{"s","dd",""};
+        String[] strings3 = new String[]{"s","dd",null};
+        Assert.assertTrue(CheckUtils.isAnyEmpty(strings1));
+        Assert.assertFalse(CheckUtils.isAnyEmpty(strings2));
+        Assert.assertFalse(CheckUtils.isAnyEmpty(strings3));
     }
 }
