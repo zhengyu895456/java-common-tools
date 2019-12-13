@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b110b8-6956-47dc-89c4-616e87cdde56" name="Default Changelist" comment="第4题">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zeroten/common/util/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestArraySort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +58,18 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="TestNG.TestEqualsInt">
+  <component name="RunManager" selected="TestNG.TestArraySort">
+    <configuration name="TestArraySort" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-common-tool" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestArraySort" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestEqualsInt" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java-common-tool" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestArraySort" />
         <item itemvalue="TestNG.TestEqualsInt" />
         <item itemvalue="TestNG.TestEqualsStr" />
         <item itemvalue="TestNG.TestIsEmpty" />
@@ -134,7 +148,8 @@
       <updated>1575995550379</updated>
       <workItem from="1575995559543" duration="470000" />
       <workItem from="1576074435443" duration="4591000" />
-      <workItem from="1576088592530" duration="281000" />
+      <workItem from="1576088592530" duration="774000" />
+      <workItem from="1576247122159" duration="1550000" />
     </task>
     <task id="LOCAL-00001" summary="第1题">
       <created>1576086329955</created>
@@ -198,22 +213,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="第4题" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="176" key="#Deployment" timestamp="1576088834674">
+    <state x="552" y="176" key="#Deployment" timestamp="1576088984822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="176" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1576088834674" />
+    <state x="552" y="176" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1576088984822" />
     <state x="552" y="178" key="#Project_Structure" timestamp="1576086617285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1576086617285" />
-    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1576088837408">
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1576089029771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576088837408" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1576074452736">
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576089029771" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1576088953050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576074452736" />
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576088953050" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1576247479793">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576247479793" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1576088522311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -234,10 +253,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576088629623" />
-    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576088594496">
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576247128502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576088594496" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576247128502" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576087880717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
