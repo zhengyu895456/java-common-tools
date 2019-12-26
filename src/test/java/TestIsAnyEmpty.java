@@ -7,9 +7,7 @@ public class TestIsAnyEmpty {
     public static void IsAnyEmptyTest(){
         String[] strings1 = new String[]{"s","dd"};
         String[] strings2 = new String[]{"s","dd",""};
-        String[] strings3 = new String[]{"s","dd",null};
         Assert.assertTrue(CheckUtils.isAnyEmpty(strings1));
         Assert.assertFalse(CheckUtils.isAnyEmpty(strings2));
-        Assert.assertFalse(CheckUtils.isAnyEmpty(strings3));
     }
 }
